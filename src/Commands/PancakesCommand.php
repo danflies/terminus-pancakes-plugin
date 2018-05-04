@@ -30,8 +30,8 @@ class PancakesCommand extends TerminusCommand Implements SiteAwareInterface {
    *
    * @authorize
    *
-   * @command site:pancakes
-   * @aliases site:pc pancakes pc
+   * @command env:pancakes
+   * @aliases env:pc pancakes pc
    *
    * @param string $site_env Site & environment in the format `site-name.env`
    * @option string $app Application to Open (optional)
